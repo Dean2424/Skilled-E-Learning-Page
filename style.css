@@ -338,6 +338,15 @@ Media Queries
 
 }
 
+@media screen and (max-width: 844px) {
+
+    .course-box {
+        width: 281px;
+        height: 319px;
+    }
+
+}
+
 @media screen and (max-width: 740px) {
 
     #hero {
@@ -391,6 +400,35 @@ Media Queries
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .courses-content-container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .course-box {
+        width: 281px;
+        height: 319px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .courses-content-container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .course-box {
+        width: 281px;
+        height: 319px;
+    }
+
+}
 
 @media screen and (max-width: 360px) {
 
