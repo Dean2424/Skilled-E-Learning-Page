@@ -392,7 +392,7 @@ Media Queries
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
     .dark-btn {
         width: 130px;
@@ -408,8 +408,10 @@ Media Queries
         width: 100%;
     }
 
-    .courses-content-container  {
+    .courses-content-container {
+
         grid-template-columns: repeat(1, 1fr);
+
     }
 
     .course-box {
@@ -423,3 +425,5 @@ Media Queries
     }
 
 }
+
+
